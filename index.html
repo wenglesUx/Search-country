@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>flags</title>
+</head>
+
+<body>
+
+    <!--cabeçalho-->
+    <header>
+        <div class="header-content">
+            <div id="logo">
+                traveler guide
+            </div>
+             <form action="" id="formulario">
+            <input type="text" id="txt" class="inputFormulario" placeholder="look for a country...">
+            
+        </form>
+        </div>
+    </header>
+    <!--Objeto de loading-->
+    <div class="body-content">
+        <main class="container grid" id="banderas"></main>
+        <div class="load-content">
+             <div class="loading">
+                <div class="dot" id="dot1"></div>
+                <div class="dot" id="dot2"></div>
+                <div class="dot" id="dot3"></div>
+                <div class="dot" id="dot4"></div>
+        </div>
+        </div>
+       
+    </div>
+
+   <!--Link JavaScript-->
+
+    <script src="/api.json"></script>
+    <script src="/script.js" defer></script>
+</body>
+</html>
